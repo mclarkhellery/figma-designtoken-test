@@ -1470,23 +1470,21 @@
       "value": {
         "fontFamily": "Cormorant SC",
         "fontWeight": "Bold",
-        "fontSize": "{sizes.md}",
+        "fontSize": 24,
         "letterSpacing": "0%",
         "lineHeight": "140%"
       },
-      "type": "typography",
-      "failedToResolve": true
+      "type": "typography"
     },
     "small": {
       "value": {
         "fontFamily": "Cormorant SC",
         "fontWeight": "Bold",
-        "fontSize": "{sizes.sm}",
+        "fontSize": 16,
         "letterSpacing": "0%",
         "lineHeight": "140%"
       },
-      "type": "typography",
-      "failedToResolve": true
+      "type": "typography"
     }
   }
 }
