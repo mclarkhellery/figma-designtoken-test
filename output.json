@@ -41,12 +41,6 @@
       "type": "fontSizes"
     }
   },
-  "fontFamilies": {
-    "default": {
-      "value": "Cormorant SC",
-      "type": "fontFamilies"
-    }
-  },
   "colors": {
     "primary": {
       "value": "#0086B4",
@@ -67,6 +61,151 @@
           "type": "color"
         }
       }
+    }
+  },
+  "fontFamily": {
+    "heading": {
+      "value": "Poppins",
+      "type": "fontFamilies",
+      "description": "Display type - Used for headers, buttons and impact text"
+    },
+    "body": {
+      "value": "Open Sans",
+      "type": "fontFamilies",
+      "description": "Text type - Used for body text, particularly long form content"
+    },
+    "sansserif": {
+      "roboto": {
+        "value": "Roboto",
+        "type": "fontFamilies",
+        "description": "Google Font Roboto by Christian Robertson"
+      },
+      "opensans": {
+        "value": "Open Sans",
+        "type": "fontFamilies",
+        "description": "Google Font Open Sans by Steve Matteson"
+      },
+      "poppins": {
+        "value": "Poppins",
+        "type": "fontFamilies",
+        "description": "Google Font Poppins by Indian Type Foundry, Jonny Pinhorn"
+      }
+    },
+    "display": {
+      "abrilfatface": {
+        "value": "Roboto",
+        "type": "fontFamilies",
+        "description": "Google Font Abril Fatface by TypeTogether"
+      },
+      "bebasneue": {
+        "value": "Roboto",
+        "type": "fontFamilies",
+        "description": "Google Font Bebas Neue by Ryoichi Tsunekawa"
+      }
+    },
+    "serif": {
+      "robotoslab": {
+        "value": "Roboto Slab",
+        "type": "fontFamilies",
+        "description": "Google Font Roboto Slab by Christian Robertson"
+      },
+      "merriweather": {
+        "value": "Merriweather",
+        "type": "fontFamilies",
+        "description": "Google Font Merriweather by Sorkin Type"
+      }
+    }
+  },
+  "typography": {
+    "h5": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 24,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
+    },
+    "h4": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 36,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 54,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 81,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 122,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
+    },
+    "display1": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 275,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
+    },
+    "display2": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 183,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
+    },
+    "body1": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 24,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
+    },
+    "body2": {
+      "value": {
+        "fontFamily": "Poppins",
+        "fontWeight": 600,
+        "lineHeight": 1.25,
+        "fontSize": 16,
+        "letterSpacing": "-1%"
+      },
+      "type": "typography"
     }
   },
   "color": {
@@ -1367,14 +1506,8 @@
       "type": "color"
     }
   },
-  "weights": {
-    "bold": {
-      "value": "Bold",
-      "type": "fontWeight"
-    }
-  },
-  "ls": {
-    "headlines": {
+  "letterSpacing": {
+    "headlngs": {
       "value": "-1%",
       "type": "letterSpacing"
     },
@@ -1383,108 +1516,112 @@
       "type": "letterSpacing"
     }
   },
-  "lh": {
-    "headlines": {
-      "value": "110%",
-      "type": "lineHeight"
+  "fontWeight": {
+    "regular": {
+      "value": 400,
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": 500,
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": 600,
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": 700,
+      "type": "fontWeights"
+    },
+    "extrabold": {
+      "value": 800,
+      "type": "fontWeights"
+    }
+  },
+  "borderRadius": {
+    "sm": {
+      "value": "2px",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": "8px",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "16px",
+      "type": "borderRadius"
+    },
+    "xxl": {
+      "value": "32px",
+      "type": "borderRadius"
+    },
+    "xxxl": {
+      "value": "50px",
+      "type": "borderRadius"
+    }
+  },
+  "spacing": {
+    "none": {
+      "value": "0px",
+      "type": "spacing"
+    },
+    "xxxs": {
+      "value": "2px",
+      "type": "spacing"
+    },
+    "xxs": {
+      "value": "4px",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "sm": {
+      "value": "12px",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "24px",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "32px",
+      "type": "spacing"
+    },
+    "xxl": {
+      "value": "48px",
+      "type": "spacing"
+    }
+  },
+  "lineHeight": {
+    "headings": {
+      "value": 1.25,
+      "type": "lineHeights"
     },
     "body": {
-      "value": "140%",
-      "type": "lineHeight"
+      "value": 1.5,
+      "type": "lineHeights"
     }
   },
-  "headlines": {
-    "Display1": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 275,
-        "letterSpacing": "-1%",
-        "lineHeight": "110%"
-      },
-      "type": "typography"
+  "opacity": {
+    "5": {
+      "value": 0.5,
+      "type": "opacity",
+      "description": "50% transparency of an element"
     },
-    "Display2": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 183,
-        "letterSpacing": "-1%",
-        "lineHeight": "110%"
-      },
-      "type": "typography"
-    },
-    "H1": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 122,
-        "letterSpacing": "-1%",
-        "lineHeight": "110%"
-      },
-      "type": "typography"
-    },
-    "H2": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 81,
-        "letterSpacing": "-1%",
-        "lineHeight": "110%"
-      },
-      "type": "typography"
-    },
-    "H3": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 54,
-        "letterSpacing": "-1%",
-        "lineHeight": "110%"
-      },
-      "type": "typography"
-    },
-    "H4": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 36,
-        "letterSpacing": "-1%",
-        "lineHeight": "110%"
-      },
-      "type": "typography"
-    },
-    "H5": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 24,
-        "letterSpacing": "-1%",
-        "lineHeight": "110%"
-      },
-      "type": "typography"
-    }
-  },
-  "body": {
-    "large": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 24,
-        "letterSpacing": "0%",
-        "lineHeight": "140%"
-      },
-      "type": "typography"
-    },
-    "small": {
-      "value": {
-        "fontFamily": "Cormorant SC",
-        "fontWeight": "Bold",
-        "fontSize": 16,
-        "letterSpacing": "0%",
-        "lineHeight": "140%"
-      },
-      "type": "typography"
+    "8": {
+      "value": 0.8,
+      "type": "opacity",
+      "description": "80% transparency of an element"
     }
   }
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 24 Jul 2022 15:55:55 GMT
+ * Generated on Wed, 27 Jul 2022 16:08:37 GMT
  */
 
 :root {
@@ -14,11 +14,28 @@
   --sd-font-size-h1: 122;
   --sd-font-size-display1: 275;
   --sd-font-size-display2: 183;
-  --sd-font-families-default: Cormorant SC;
   --sd-colors-primary: #0086B4;
   --sd-colors-button-background-primary: #0086B4;
   --sd-colors-button-background-hover: #003D62;
   --sd-colors-button-background-secondary: #668800;
+  --sd-font-family-heading: Poppins;
+  --sd-font-family-body: Open Sans;
+  --sd-font-family-sansserif-roboto: Roboto;
+  --sd-font-family-sansserif-opensans: Open Sans;
+  --sd-font-family-sansserif-poppins: Poppins;
+  --sd-font-family-display-abrilfatface: Roboto;
+  --sd-font-family-display-bebasneue: Roboto;
+  --sd-font-family-serif-robotoslab: Roboto Slab;
+  --sd-font-family-serif-merriweather: Merriweather;
+  --sd-typography-h5: [object Object];
+  --sd-typography-h4: [object Object];
+  --sd-typography-h3: [object Object];
+  --sd-typography-h2: [object Object];
+  --sd-typography-h1: [object Object];
+  --sd-typography-display1: [object Object];
+  --sd-typography-display2: [object Object];
+  --sd-typography-body1: [object Object];
+  --sd-typography-body2: [object Object];
   --sd-color-red-100: #7b0000;
   --sd-color-red-200: #8d0000;
   --sd-color-red-300: #a50000;
@@ -201,18 +218,30 @@
   --sd-color-grey-900: #000000;
   --sd-color-white: #ffffff;
   --sd-color-black: #000000;
-  --sd-weights-bold: Bold;
-  --sd-ls-headlines: -1%;
-  --sd-ls-body: 0%;
-  --sd-lh-headlines: 110%;
-  --sd-lh-body: 140%;
-  --sd-headlines-display1: [object Object];
-  --sd-headlines-display2: [object Object];
-  --sd-headlines-h1: [object Object];
-  --sd-headlines-h2: [object Object];
-  --sd-headlines-h3: [object Object];
-  --sd-headlines-h4: [object Object];
-  --sd-headlines-h5: [object Object];
-  --sd-body-large: [object Object];
-  --sd-body-small: [object Object];
+  --sd-letter-spacing-headlngs: -1%;
+  --sd-letter-spacing-body: 0%;
+  --sd-font-weight-regular: 400;
+  --sd-font-weight-medium: 500;
+  --sd-font-weight-semibold: 600;
+  --sd-font-weight-bold: 700;
+  --sd-font-weight-extrabold: 800;
+  --sd-border-radius-sm: 2px;
+  --sd-border-radius-md: 4px;
+  --sd-border-radius-lg: 8px;
+  --sd-border-radius-xl: 16px;
+  --sd-border-radius-xxl: 32px;
+  --sd-border-radius-xxxl: 50px;
+  --sd-spacing-none: 0px;
+  --sd-spacing-xxxs: 2px;
+  --sd-spacing-xxs: 4px;
+  --sd-spacing-xs: 8px;
+  --sd-spacing-sm: 12px;
+  --sd-spacing-md: 16px;
+  --sd-spacing-lg: 24px;
+  --sd-spacing-xl: 32px;
+  --sd-spacing-xxl: 48px;
+  --sd-line-height-headings: 1.25;
+  --sd-line-height-body: 1.5;
+  --sd-opacity-5: 0.5;
+  --sd-opacity-8: 0.8;
 }
