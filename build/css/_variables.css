@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 16:08:37 GMT
+ * Generated on Thu, 28 Jul 2022 08:43:45 GMT
  */
 
 :root {
@@ -18,7 +18,7 @@
   --sd-colors-button-background-primary: #0086B4;
   --sd-colors-button-background-hover: #003D62;
   --sd-colors-button-background-secondary: #668800;
-  --sd-font-family-heading: Poppins;
+  --sd-font-family-headings: Poppins;
   --sd-font-family-body: Open Sans;
   --sd-font-family-sansserif-roboto: Roboto;
   --sd-font-family-sansserif-opensans: Open Sans;
@@ -27,15 +27,26 @@
   --sd-font-family-display-bebasneue: Roboto;
   --sd-font-family-serif-robotoslab: Roboto Slab;
   --sd-font-family-serif-merriweather: Merriweather;
-  --sd-typography-h5: [object Object];
-  --sd-typography-h4: [object Object];
-  --sd-typography-h3: [object Object];
-  --sd-typography-h2: [object Object];
-  --sd-typography-h1: [object Object];
-  --sd-typography-display1: [object Object];
-  --sd-typography-display2: [object Object];
-  --sd-typography-body1: [object Object];
-  --sd-typography-body2: [object Object];
+  --sd-typography-h5-bold: [object Object];
+  --sd-typography-h5-medium: [object Object];
+  --sd-typography-h4-bold: [object Object];
+  --sd-typography-h4-medium: [object Object];
+  --sd-typography-h3-bold: [object Object];
+  --sd-typography-h3-medium: [object Object];
+  --sd-typography-h2-bold: [object Object];
+  --sd-typography-h2-medium: [object Object];
+  --sd-typography-h1-bold: [object Object];
+  --sd-typography-h1-medium: [object Object];
+  --sd-typography-display1-bold: [object Object];
+  --sd-typography-display1-medium: [object Object];
+  --sd-typography-display2-bold: [object Object];
+  --sd-typography-display2-medium: [object Object];
+  --sd-typography-body1-semibold: [object Object];
+  --sd-typography-body1-bold: [object Object];
+  --sd-typography-body1-medium: [object Object];
+  --sd-typography-body2-semibold: [object Object];
+  --sd-typography-body2-bold: [object Object];
+  --sd-typography-body2-medium: [object Object];
   --sd-color-red-100: #7b0000;
   --sd-color-red-200: #8d0000;
   --sd-color-red-300: #a50000;
@@ -220,11 +231,11 @@
   --sd-color-black: #000000;
   --sd-letter-spacing-headlngs: -1%;
   --sd-letter-spacing-body: 0%;
-  --sd-font-weight-regular: 400;
-  --sd-font-weight-medium: 500;
-  --sd-font-weight-semibold: 600;
-  --sd-font-weight-bold: 700;
-  --sd-font-weight-extrabold: 800;
+  --sd-font-weight-regular: Regular;
+  --sd-font-weight-medium: Medium;
+  --sd-font-weight-semibold: SemiBold;
+  --sd-font-weight-bold: Bold;
+  --sd-font-weight-extrabold: ExtraBold;
   --sd-border-radius-sm: 2px;
   --sd-border-radius-md: 4px;
   --sd-border-radius-lg: 8px;
@@ -240,8 +251,8 @@
   --sd-spacing-lg: 24px;
   --sd-spacing-xl: 32px;
   --sd-spacing-xxl: 48px;
-  --sd-line-height-headings: 1.25;
-  --sd-line-height-body: 1.5;
+  --sd-line-height-headings: 125%;
+  --sd-line-height-body: 150%;
   --sd-opacity-5: 0.5;
   --sd-opacity-8: 0.8;
 }
