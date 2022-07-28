@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 08:43:45 GMT
+ * Generated on Thu, 28 Jul 2022 14:14:51 GMT
  */
 
 :root {
@@ -14,10 +14,34 @@
   --sd-font-size-h1: 122;
   --sd-font-size-display1: 275;
   --sd-font-size-display2: 183;
-  --sd-colors-primary: #0086B4;
-  --sd-colors-button-background-primary: #0086B4;
-  --sd-colors-button-background-hover: #003D62;
-  --sd-colors-button-background-secondary: #668800;
+  --sd-colors-primary-regular: #CA5D00;
+  --sd-colors-primary-dark: #9E4200;
+  --sd-colors-primary-light: #FFF2DD;
+  --sd-colors-secondary-regular: #9D57F3;
+  --sd-colors-secondary-dark: #7A2DDA;
+  --sd-colors-secondary-light: #F9F0FF;
+  --sd-colors-tertiary-regular: #008F5D;
+  --sd-colors-tertiary-dark: #006C43;
+  --sd-colors-tertiary-light: #DFFAEA;
+  --sd-colors-error-regular: #EA3829;
+  --sd-colors-error-regular-copy: #EA3829;
+  --sd-colors-error-dark: #BE0403;
+  --sd-colors-error-light: #FFF1EE;
+  --sd-colors-warning-regular: #CA5D00;
+  --sd-colors-warning-dark: #9E4200;
+  --sd-colors-warning-light: #FFF2DD;
+  --sd-colors-black-dark: #000000;
+  --sd-colors-black-regular: #222222;
+  --sd-colors-black-light: #464646;
+  --sd-colors-gray-dark: #6D6D6D;
+  --sd-colors-gray-regular: #909090;
+  --sd-colors-gray-light: #B1B1B1;
+  --sd-colors-silver-dark: #D5D5D5;
+  --sd-colors-silver-regular: #E6E6E6;
+  --sd-colors-silver-light: #F8F8F8;
+  --sd-colors-text-brand-primary: #ffffff;
+  --sd-colors-text-button-inverse: #FDFDFD;
+  --sd-colors-text-defult: #222222;
   --sd-font-family-headings: Poppins;
   --sd-font-family-body: Open Sans;
   --sd-font-family-sansserif-roboto: Roboto;
@@ -255,4 +279,9 @@
   --sd-line-height-body: 150%;
   --sd-opacity-5: 0.5;
   --sd-opacity-8: 0.8;
+  --sd-shadow-sm: [object Object];
+  --sd-shadow-md: [object Object],[object Object];
+  --sd-shadow-lg: [object Object],[object Object];
+  --sd-shadow-xl: [object Object],[object Object];
+  --sd-shadow-xxl: [object Object],[object Object];
 }

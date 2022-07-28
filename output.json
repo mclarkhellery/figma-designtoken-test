@@ -43,23 +43,165 @@
   },
   "colors": {
     "primary": {
-      "value": "#0086B4",
-      "type": "color"
+      "regular": {
+        "value": "#CA5D00",
+        "type": "color",
+        "description": "Primary brand color, used badges."
+      },
+      "dark": {
+        "value": "#9E4200",
+        "type": "color",
+        "description": "Dark variant of Brand that is accessible with white"
+      },
+      "light": {
+        "value": "#FFF2DD",
+        "type": "color",
+        "description": "Light variant used for backgrounds"
+      }
     },
-    "button": {
-      "background": {
+    "secondary": {
+      "regular": {
+        "value": "#9D57F3",
+        "type": "color",
+        "description": "Primary brand color, used badges."
+      },
+      "dark": {
+        "value": "#7A2DDA",
+        "type": "color",
+        "description": "Dark variant that is accessible with white"
+      },
+      "light": {
+        "value": "#F9F0FF",
+        "type": "color",
+        "description": "Light variant used for backgrounds"
+      }
+    },
+    "tertiary": {
+      "regular": {
+        "value": "#008F5D",
+        "type": "color",
+        "description": "Success color, used for alerts, badges, and indicating status"
+      },
+      "dark": {
+        "value": "#006C43",
+        "type": "color",
+        "description": "Dark variant that is accessible with white"
+      },
+      "light": {
+        "value": "#DFFAEA",
+        "type": "color",
+        "description": "Light variant used for backgrounds"
+      }
+    },
+    "error": {
+      "regular": {
+        "value": "#EA3829",
+        "type": "color",
+        "description": "Used as error/destructive color."
+      },
+      "regular-copy": {
+        "value": "#EA3829",
+        "type": "color",
+        "description": "Used as error/destructive color."
+      },
+      "dark": {
+        "value": "#BE0403",
+        "type": "color",
+        "description": "Dark variant that is accessible with white"
+      },
+      "light": {
+        "value": "#FFF1EE",
+        "type": "color",
+        "description": "Light variant used for backgrounds"
+      }
+    },
+    "warning": {
+      "regular": {
+        "value": "#CA5D00",
+        "type": "color",
+        "description": "Warning color, used for alerts and badges."
+      },
+      "dark": {
+        "value": "#9E4200",
+        "type": "color",
+        "description": "Dark variant that is accessible with white"
+      },
+      "light": {
+        "value": "#FFF2DD",
+        "type": "color",
+        "description": "Light variant used for backgrounds"
+      }
+    },
+    "black": {
+      "dark": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Media background and overlay color"
+      },
+      "regular": {
+        "value": "#222222",
+        "type": "color",
+        "description": "Primary text and icon color, used in all aspects of the UI."
+      },
+      "light": {
+        "value": "#464646",
+        "type": "color",
+        "description": "Secondary text and icon color, used for UI elements that need less emphasis."
+      }
+    },
+    "gray": {
+      "dark": {
+        "value": "#6D6D6D",
+        "type": "color",
+        "description": "Tertiary icon color, used for UI that need less emphasis."
+      },
+      "regular": {
+        "value": "#909090",
+        "type": "color",
+        "description": "Used for UI elements that need low emphasis, including disabled components"
+      },
+      "light": {
+        "value": "#B1B1B1",
+        "type": "color",
+        "description": "Used for illustrations, graphics, and disabled components."
+      }
+    },
+    "silver": {
+      "dark": {
+        "value": "#D5D5D5",
+        "type": "color",
+        "description": "Section divider color, also used for tertiary button background."
+      },
+      "regular": {
+        "value": "#E6E6E6",
+        "type": "color",
+        "description": "ertiary background color, used to separate a section from one with a Silver Light background."
+      },
+      "light": {
+        "value": "#F8F8F8",
+        "type": "color",
+        "description": "Secondary background color, used to separate a section from one with a White background."
+      }
+    },
+    "text": {
+      "brand": {
         "primary": {
-          "value": "#0086B4",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#003D62",
-          "type": "color"
-        },
-        "secondary": {
-          "value": "#668800",
-          "type": "color"
+          "value": "#ffffff",
+          "type": "color",
+          "description": "Text color to use on any primary brand color"
         }
+      },
+      "button": {
+        "inverse": {
+          "value": "#FDFDFD",
+          "type": "color",
+          "description": "Text color for a button that has a parent element that has a hover state. This is the default text/icon color for that button before its parent has been hovered over"
+        }
+      },
+      "defult": {
+        "value": "#222222",
+        "type": "color",
+        "description": "Body text color"
       }
     }
   },
@@ -1750,6 +1892,103 @@
       "value": 0.8,
       "type": "opacity",
       "description": "80% transparency of an element"
+    }
+  },
+  "shadow": {
+    "sm": {
+      "value": {
+        "x": 0,
+        "y": 5,
+        "blur": 12,
+        "spread": 0,
+        "color": "#00436514",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "md": {
+      "value": [
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 6,
+          "spread": 0,
+          "color": "#82a9bc66",
+          "type": "dropShadow"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "blur": 12,
+          "spread": 0,
+          "color": "#00436514",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "lg": {
+      "value": [
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 6,
+          "spread": 0,
+          "color": "#82a9bc66",
+          "type": "dropShadow"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "blur": 19,
+          "spread": 0,
+          "color": "#00436533",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "xl": {
+      "value": [
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 6,
+          "spread": 0,
+          "color": "#82a9bc66",
+          "type": "dropShadow"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "blur": 30,
+          "spread": 0,
+          "color": "#0043654d",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "xxl": {
+      "value": [
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 6,
+          "spread": 0,
+          "color": "#82a9bc66",
+          "type": "dropShadow"
+        },
+        {
+          "x": 0,
+          "y": 5,
+          "blur": 50,
+          "spread": 0,
+          "color": "#00436580",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow"
     }
   }
 }
